@@ -1,0 +1,316 @@
+body {
+    font-family: 'Roboto', sans-serif; /* Updated font family */
+}
+
+.header-section {
+    background-color: #79a3b1; /* Lightened color */
+    text-align: center;
+    padding: 3rem 0; /* Adjusted padding for better spacing */
+}
+
+.header-title {
+    font-family: 'Playfair Display', serif;
+    font-weight: 700;
+    font-size: 3.5rem; /* Slightly decreased font size */
+    color: #2c3e50; /* Darkened text color */
+    margin-bottom: 1rem; /* Adjusted margin */
+}
+
+.experience {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400; /* Changed font weight for better readability */
+    font-size: 1.2rem;
+    color: #34495e;
+    padding: 0 1.5rem; /* Adjusted padding */
+}
+
+.experience-title {
+    font-weight: 600; /* Adjusted font weight for better emphasis */
+}
+
+
+
+.carousel-container {
+    width: 100%;
+    overflow: hidden;
+    margin-top: 2rem;
+}
+
+.carousel {
+    width: 100%;
+    height: 400px;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 1rem;
+    background-color: rgba(189, 195, 199, 0.7); /* New transparency */
+    color: #34495e; /* New text color */
+    text-align: center;
+}
+
+.carousel-caption h3 {
+    font-size: 2rem; /* Adjusted font size */
+    margin-bottom: 0;
+}
+ 
+
+
+
+
+
+
+/*--------- COMBINED selectors ----------*/
+
+section#contactus h1 {
+    margin-top: 10%;
+    text-align: center;
+}
+
+/* ------------ Classes ---------*/
+.contactus {
+    margin-top: 5%;
+    margin-left: 15%;
+}
+#booktrip {
+    background-color: #E6E6FA;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 5% 10%;
+}
+
+.booktrip {
+    margin: 5%;
+}
+
+.booktrip-card {
+    margin: 2%;
+}
+
+.booktrip-card .card {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.booktrip-card .card-img-top {
+    border-radius: 8px;
+}
+
+.booktrip-card .card-body {
+    padding: 15px;
+}
+
+.booktrip-card .btn-primary {
+    background-color: #607EAA;
+    border-color: #607EAA;
+}
+
+.booktrip-card .btn-primary:hover {
+    background-color: #485E8A;
+    border-color: #485E8A;
+}
+
+
+.our-boats {
+    text-align: center;
+    margin: 5%;
+}
+
+.row1 {
+    margin-top: 3%;
+    margin-bottom: 3%;
+    background-color: #F0F0F0;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.trip {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1000px; /* Increased maximum width for better centering and responsiveness */
+}
+
+.trip-img {
+    margin-right: 3%;
+    width: 100%; /* Occupying 100% width within the container */
+    max-width: 600px; /* Adjusted max-width for larger display */
+    height: auto;
+}
+
+/* -------------- ID ---------*/
+
+#sail4wind {
+    margin-left: 2%;
+}
+
+#nav-bar-text {
+    margin-right: 2%;
+}
+
+#trip {
+    background-color: #607EAA;
+    text-align: center;
+    padding: 20px; /* Added padding for better spacing */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+
+.navbar {
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: 700;
+}
+
+.navbar .nav-item.active .nav-link {
+    color: #007bff;
+}
+
+.navbar-nav .dropdown-menu {
+    background-color: #f5f5f5;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+.navbar-nav .dropdown-item {
+    color: #333;
+    font-weight: 600;
+}
+
+.navbar-nav .dropdown-item:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.profile-link {
+    color: blue;
+    font-weight: bold;
+}
+.fa-user {
+    margin-right: 5px;
+}
+
+.section-title {
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.section-title h2 {
+    font-weight: 700;
+    font-size: 36px;
+    text-transform: uppercase;
+}
+
+.section-title p {
+    font-size: 18px;
+    font-weight: 400;
+    color: #6c757d;
+    margin-bottom: 0;
+}
+
+.contact-form {
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form .form-control {
+    border-radius: 10px;
+    background: #fff;
+    border: none;
+    box-shadow: none;
+    font-size: 16px;
+    height: 50px;
+}
+
+.contact-form .form-control:focus {
+    box-shadow: none;
+}
+
+.contact-form .form-control::placeholder {
+    color: #c7c7c7;
+}
+
+.contact-form .form-group {
+    margin-bottom: 20px;
+}
+
+.contact-form .btn {
+    background: #007bff;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 50px;
+    padding: 15px 40px;
+    transition: all 0.3s ease-in-out;
+}
+
+.contact-form .btn:hover {
+    background: #0069d9;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    color: #fff; /* Updated text color */
+    background-color: #35424a; /* Updated background color */
+    padding: 2rem 0;
+}
+
+.footer-title {
+    font-size: var(--bs-navbar-brand-font-size);
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer li {
+    margin-bottom: 0.5rem;
+}
+
+footer a {
+    color: #fff; /* Updated text color */
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+footer a:hover {
+    color: #a8a8a8; /* Updated hover color */
+}
+
+.copyright {
+    background-color: #35424a; /* Updated background color */
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.copyright p {
+    margin: 0;
+}
